@@ -1,0 +1,2 @@
+#!/bing/bash
+gcc -S -masm=intel $CFILE
