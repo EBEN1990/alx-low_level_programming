@@ -12,7 +12,7 @@ int main(void)
 
 	while (i < 50)
 	{
-	if (i == 50)
+	if (i == 0)
 	printf(", %ld", k);
 	else
 	{
@@ -22,6 +22,6 @@ int main(void)
 	}
 	++i;
 	}
-	print('\n");
+	print("\n");
 	return (0);
 }
