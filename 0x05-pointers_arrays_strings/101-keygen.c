@@ -27,7 +27,7 @@ int main(void)
 		diff_half2 = (sum - 2772) / 2;
 
 		if ((sum - 2772) % 2 != 0)
-		diff_half1++
+		diff_half1++;
 
 		for (index = 0; password[index]; index++)
 		{
@@ -37,6 +37,7 @@ int main(void)
 				break;
 			}
 		}
+
 		for (index = 0; password[index]; index++)
 		{
 			if (password[index] >= (33 + diff_half2))
